@@ -1,66 +1,20 @@
-<?php
-
-/**
- * This file is part of CodeIgniter 4 framework.
- *
- * (c) CodeIgniter Foundation <admin@codeigniter.com>
- *
- * For the full copyright and license information, please view
- * the LICENSE file that was distributed with this source code.
- */
-
-namespace CodeIgniter;
-
-use CIUnitTestCase;
-use Config\Services as ConfigServices;
-
-/**
- * Services class for testing.
- */
-class Services
-{
-    /**
-     * Mock objects for testing which are returned if exist.
-     *
-     * @var array
-     */
-    protected static $mocks = [];
-
-    /**
-     * Reset shared instances and mocks for testing.
-     */
-    public static function reset()
-    {
-        static::$mocks = [];
-
-        CIUnitTestCase::setPrivateProperty(ConfigServices::class, 'instances', []);
-    }
-
-    /**
-     * Inject mock object for testing.
-     *
-     * @param $mock
-     */
-    public static function injectMock(string $name, $mock)
-    {
-        $name                 = strtolower($name);
-        static::$mocks[$name] = $mock;
-    }
-
-    /**
-     * Returns a service
-     */
-    public static function __callStatic(string $name, array $arguments)
-    {
-        $name = strtolower($name);
-
-        // Returns mock if exists
-        if (isset(static::$mocks[$name])) {
-            return static::$mocks[$name];
-        }
-
-        if (method_exists(ConfigServices::class, $name)) {
-            return ConfigServices::$name(...$arguments);
-        }
-    }
-}
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v3" manifestVersion="1.0" description="Windows Hello Face Software Device" displayName="Windows Hello Face" copyright="Copyright (c) Microsoft Corporation. All Rights Reserved" supportInformation="http://support.microsoft.com/?kbid=777777">
+  <assemblyIdentity name="Microsoft-Windows-Hello-Face-Package" version="10.0.19041.1348" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" />
+  <package identifier="KB777778" releaseType="OnDemand Pack">
+    <mum2:customInformation xmlns:mum2="urn:schemas-microsoft-com:asm.v3">
+      <mum2:OptionalFeatures SchemaVersion="1.0">
+        <mum2:SettingsPageOptions Visibility="all" FeatureType="default" />
+      </mum2:OptionalFeatures>
+    </mum2:customInformation>
+    <parent buildCompare="GE" disposition="detect" integrate="separate" revisionCompare="GE">
+      <assemblyIdentity name="Microsoft-Windows-Client-Features-Package" version="10.0.17637.1000" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" />
+    </parent>
+    <declareCapability>
+      <capability>
+        <capabilityIdentity name="Hello.Face.18967" version="1.0" />
+      </capability>
+    </declareCapability>
+    <update name="6d73fc30f7ce653ab561836185a8f130">
+      <component>
+        <assemblyIdentity name="Microsoft-Windows-Hello-Face-Deplo

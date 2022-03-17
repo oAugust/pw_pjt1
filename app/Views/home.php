@@ -1,5 +1,6 @@
 
         <!-- inicio do corpo da pagina-->
+        
         <div class="row">
             <div class="col">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -42,7 +43,7 @@
             </div>
             <div class="col">
                 <h2>  Nós somos autorizados pela BMW pela venda e eles fornecem os carros</h2>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1IWXyyaj9BFD20ocBnktNCWgCp1hiEZgzog&usqp=CAU" alt="">
+                <img src="<?=base_url()?>/img/bloodtrail.png" alt="" width="210px" height="190px">
             </div>
         </div>
         <!-- fim do corpo da pagina-->

@@ -1,28 +1,6 @@
-<?php
-
-/**
- * This file is part of CodeIgniter 4 framework.
- *
- * (c) CodeIgniter Foundation <admin@codeigniter.com>
- *
- * For the full copyright and license information, please view
- * the LICENSE file that was distributed with this source code.
- */
-
-namespace Tests\Support\Commands;
-
-use CodeIgniter\CLI\BaseCommand;
-
-class ParamsReveal extends BaseCommand
-{
-    protected $group       = 'demo';
-    protected $name        = 'reveal';
-    protected $usage       = 'reveal [options] [arguments]';
-    protected $description = 'Reveal params';
-    public static $args;
-
-    public function run(array $params)
-    {
-        static::$args = $params;
-    }
-}
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v3" manifestVersion="1.0" copyright="Copyright (c) Microsoft Corporation. All Rights Reserved.">
+  <assemblyIdentity name="HyperV-Compute-Host-Containers-merged-Package" version="10.0.19041.844" processorArchitecture="amd64" language="fi-FI" buildType="release" publicKeyToken="31bf3856ad364e35" />
+  <package identifier="HyperV-Compute-Host-Containers-merged-fi-FI" releaseType="Language Pack">
+    <parent disposition="detect">
+      <assemblyIdentity name="HyperV-Compute-Host-Containers-merged-Package" version="10.0.19041.844" processorArchitecture="amd64" language="neutr

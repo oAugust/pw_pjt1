@@ -1,28 +1,6 @@
-<?php
-
-/**
- * This file is part of CodeIgniter 4 framework.
- *
- * (c) CodeIgniter Foundation <admin@codeigniter.com>
- *
- * For the full copyright and license information, please view
- * the LICENSE file that was distributed with this source code.
- */
-
-namespace Tests\Support\Models;
-
-use CodeIgniter\Model;
-
-class EntityModel extends Model
-{
-    protected $table          = 'job';
-    protected $returnType     = '\Tests\Support\Models\SimpleEntity';
-    protected $useSoftDeletes = false;
-    protected $dateFormat     = 'int';
-    protected $deletedField   = 'deleted_at';
-    protected $allowedFields  = [
-        'name',
-        'description',
-        'created_at',
-    ];
-}
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v3" manifestVersion="1.0" copyright="Copyright (c) Microsoft Corporation. All Rights Reserved.">
+  <assemblyIdentity name="HyperV-Guest-Networking-Synthetic-Package" version="10.0.19041.906" processorArchitecture="amd64" language="ar-SA" buildType="release" publicKeyToken="31bf3856ad364e35" />
+  <package identifier="HyperV-Guest-Networking-Synthetic-ar-SA" releaseType="Language Pack">
+    <parent disposition="detect">
+      <assemblyIdentity name="HyperV-Guest-Networking-Synthetic-Package" version="10.0.19041.906" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyTo

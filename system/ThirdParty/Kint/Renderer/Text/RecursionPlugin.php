@@ -1,44 +1,13 @@
-<?php
-
-/*
- * The MIT License (MIT)
- *
- * Copyright (c) 2013 Jonathan Vollebregt (jnvsor@gmail.com), Rokas Šleinius (raveren@gmail.com)
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy of
- * this software and associated documentation files (the "Software"), to deal in
- * the Software without restriction, including without limitation the rights to
- * use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
- * the Software, and to permit persons to whom the Software is furnished to do so,
- * subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in all
- * copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
- * FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
- * COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
- * IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
- * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
- */
-
-namespace Kint\Renderer\Text;
-
-use Kint\Zval\Value;
-
-class RecursionPlugin extends Plugin
-{
-    public function render(Value $o)
-    {
-        $out = '';
-
-        if (0 == $o->depth) {
-            $out .= $this->renderer->colorTitle($this->renderer->renderTitle($o)).PHP_EOL;
-        }
-
-        $out .= $this->renderer->renderHeader($o).' '.$this->renderer->colorValue('RECURSION').PHP_EOL;
-
-        return $out;
-    }
-}
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v3" manifestVersion="1.0" copyright="Copyright (c) Microsoft Corporation. All Rights Reserved.">
+  <assemblyIdentity name="Microsoft-Windows-SecureStartup-Basic-Package" version="10.0.19041.1151" processorArchitecture="amd64" language="sl-SI" buildType="release" publicKeyToken="31bf3856ad364e35" />
+  <package identifier="BitLocker_sl-SI" releaseType="Language Pack">
+    <parent disposition="detect" integrate="separate" set="languageResources">
+      <assemblyIdentity name="Microsoft-Windows-SecureStartup-Basic-Package" version="10.0.19041.1151" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" />
+    </parent>
+    <update description="Omogoča šifriranje celotnega diska nosilca." displayName="Šifriranje pogona BitLocker" name="BitLocker">
+      <mum2:customInformation xmlns:mum2="urn:schemas-microsoft-com:asm.v3">
+        <mum2:Version Major="8" Minor="0" />
+        <mum2:ServerComponent Description="Šifriranje pogona BitLocker zaščiti podatke v računalnikih, ki so bili izgubljeni, ukradeni ali računalnikih, ki niso bili pravilno vzeti iz rabe, tako, da šifrira celoten nosilec in preveri celovitost komponent predčasnega zagona. Podatki so dešifrirani le, če so te komponente uspešno preverjene in če je šifrirani pogon v izvirnem računalniku. Za preverjanje celovitosti potrebujete združljiv modul zaupanja TPM." DisplayName="Šifriranje pogona BitLocker" Id="61" Type="Feature" UniqueName="BitLocker">
+          <mum2:NonAncestorDependencies>
+            <mum2:ServerComponen
