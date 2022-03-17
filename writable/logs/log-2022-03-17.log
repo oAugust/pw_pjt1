@@ -34,3 +34,83 @@ CRITICAL - 2022-03-17 06:37:42 --> Use of undefined constant base - assumed 'bas
 #8 C:\wamp64\www\pw_pjt1\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #9 C:\wamp64\www\pw_pjt1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
 #10 {main}
+CRITICAL - 2022-03-17 11:55:37 --> Invalid file: quem.css
+#0 C:\wamp64\www\pw_pjt1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('quem.css')
+#1 C:\wamp64\www\pw_pjt1\system\Common.php(1089): CodeIgniter\View\View->render('quem.css', Array, true)
+#2 C:\wamp64\www\pw_pjt1\app\Controllers\Home.php(16): view('quem.css')
+#3 C:\wamp64\www\pw_pjt1\system\CodeIgniter.php(825): App\Controllers\Home->page('quem.css')
+#4 C:\wamp64\www\pw_pjt1\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\pw_pjt1\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\pw_pjt1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\pw_pjt1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#8 {main}
+CRITICAL - 2022-03-17 11:55:39 --> Invalid file: quem.css
+#0 C:\wamp64\www\pw_pjt1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('quem.css')
+#1 C:\wamp64\www\pw_pjt1\system\Common.php(1089): CodeIgniter\View\View->render('quem.css', Array, true)
+#2 C:\wamp64\www\pw_pjt1\app\Controllers\Home.php(16): view('quem.css')
+#3 C:\wamp64\www\pw_pjt1\system\CodeIgniter.php(825): App\Controllers\Home->page('quem.css')
+#4 C:\wamp64\www\pw_pjt1\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\pw_pjt1\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\pw_pjt1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\pw_pjt1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#8 {main}
+CRITICAL - 2022-03-17 11:57:16 --> Invalid file: quem.css
+#0 C:\wamp64\www\pw_pjt1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('quem.css')
+#1 C:\wamp64\www\pw_pjt1\system\Common.php(1089): CodeIgniter\View\View->render('quem.css', Array, true)
+#2 C:\wamp64\www\pw_pjt1\app\Controllers\Home.php(16): view('quem.css')
+#3 C:\wamp64\www\pw_pjt1\system\CodeIgniter.php(825): App\Controllers\Home->page('quem.css')
+#4 C:\wamp64\www\pw_pjt1\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\pw_pjt1\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\pw_pjt1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\pw_pjt1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#8 {main}
+CRITICAL - 2022-03-17 11:57:44 --> Invalid file: quem.css
+#0 C:\wamp64\www\pw_pjt1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('quem.css')
+#1 C:\wamp64\www\pw_pjt1\system\Common.php(1089): CodeIgniter\View\View->render('quem.css', Array, true)
+#2 C:\wamp64\www\pw_pjt1\app\Controllers\Home.php(16): view('quem.css')
+#3 C:\wamp64\www\pw_pjt1\system\CodeIgniter.php(825): App\Controllers\Home->page('quem.css')
+#4 C:\wamp64\www\pw_pjt1\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\pw_pjt1\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\pw_pjt1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\pw_pjt1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#8 {main}
+CRITICAL - 2022-03-17 11:57:45 --> Invalid file: quem.css
+#0 C:\wamp64\www\pw_pjt1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('quem.css')
+#1 C:\wamp64\www\pw_pjt1\system\Common.php(1089): CodeIgniter\View\View->render('quem.css', Array, true)
+#2 C:\wamp64\www\pw_pjt1\app\Controllers\Home.php(16): view('quem.css')
+#3 C:\wamp64\www\pw_pjt1\system\CodeIgniter.php(825): App\Controllers\Home->page('quem.css')
+#4 C:\wamp64\www\pw_pjt1\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\pw_pjt1\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\pw_pjt1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\pw_pjt1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#8 {main}
+CRITICAL - 2022-03-17 11:58:26 --> Invalid file: quem.css
+#0 C:\wamp64\www\pw_pjt1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('quem.css')
+#1 C:\wamp64\www\pw_pjt1\system\Common.php(1089): CodeIgniter\View\View->render('quem.css', Array, true)
+#2 C:\wamp64\www\pw_pjt1\app\Controllers\Home.php(16): view('quem.css')
+#3 C:\wamp64\www\pw_pjt1\system\CodeIgniter.php(825): App\Controllers\Home->page('quem.css')
+#4 C:\wamp64\www\pw_pjt1\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\pw_pjt1\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\pw_pjt1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\pw_pjt1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#8 {main}
+CRITICAL - 2022-03-17 11:58:36 --> Invalid file: quem.css
+#0 C:\wamp64\www\pw_pjt1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('quem.css')
+#1 C:\wamp64\www\pw_pjt1\system\Common.php(1089): CodeIgniter\View\View->render('quem.css', Array, true)
+#2 C:\wamp64\www\pw_pjt1\app\Controllers\Home.php(16): view('quem.css')
+#3 C:\wamp64\www\pw_pjt1\system\CodeIgniter.php(825): App\Controllers\Home->page('quem.css')
+#4 C:\wamp64\www\pw_pjt1\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\pw_pjt1\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\pw_pjt1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\pw_pjt1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#8 {main}
+CRITICAL - 2022-03-17 11:58:51 --> Invalid file: quem.css
+#0 C:\wamp64\www\pw_pjt1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('quem.css')
+#1 C:\wamp64\www\pw_pjt1\system\Common.php(1089): CodeIgniter\View\View->render('quem.css', Array, true)
+#2 C:\wamp64\www\pw_pjt1\app\Controllers\Home.php(16): view('quem.css')
+#3 C:\wamp64\www\pw_pjt1\system\CodeIgniter.php(825): App\Controllers\Home->page('quem.css')
+#4 C:\wamp64\www\pw_pjt1\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\pw_pjt1\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\pw_pjt1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\pw_pjt1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#8 {main}
